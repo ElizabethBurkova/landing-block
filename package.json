@@ -1,12 +1,12 @@
 {
   "name": "start",
-  "version": "0.6.5",
+  "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Саламатин Анатолий. FrontCoder",
+  "author": "ElizabethBurkova",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.18.12",
