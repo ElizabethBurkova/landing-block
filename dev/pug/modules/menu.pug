@@ -1,0 +1,27 @@
+-
+    const menuItems = [
+        {
+            title: 'Home',
+            link: '/home'
+        },
+        {
+            title: 'About me',
+            link: '/about'
+        },
+        {
+            title: 'Skills',
+            link: '/skills'
+        },
+        {
+            title: 'Portfolio',
+            link: '/portfolio'
+        },
+        {
+            title: 'Contacts',
+            link: '/contacts'
+        }];
+
+div.container
+    nav.menu
+        each item in menuItems
+            a(href=item.link).menu__link= item.title
